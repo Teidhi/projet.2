@@ -19,7 +19,7 @@ plt.style.use('ggplot')
 import warnings
 warnings.filterwarnings("ignore")
 
-st.set_page_config(page_title="Tableau de bord", layout="wide")
+st.set_page_config(page_title="Tableau de bord", layout="wide", background_color="black")
 
 # Ajout du style CSS
 st.markdown("""

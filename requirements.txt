@@ -2,3 +2,6 @@ numpy==1.26.4
 seaborn==0.12.2
 pandas==2.2.2
 streamlit==1.32.2
+plotly==5.9.0
+matplotlib==3.7.2
+wordcloud==1.9.3

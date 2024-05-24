@@ -18,11 +18,19 @@ plt.style.use('ggplot')
 import warnings
 warnings.filterwarnings("ignore")
 
+st.markdown("""
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Configuration de la page avec d'autres paramètres
 st.set_page_config(
     page_title="Tableau de bord",
     layout="wide",
-    page_icon="📊",
-    background_color="black"
+    page_icon="📊"
 )
 
 # Ajout du style CSS

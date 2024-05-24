@@ -47,7 +47,7 @@ st.markdown("""
 
 
 # Afficher l'image en haut de la barre latérale
-st.sidebar.image("C:\\Users\\teddy\\Documents\\Projet.2\\logo.png", use_column_width=True)
+st.sidebar.image("https://github.com/Teidhi/projet.2/blob/master/Logo.png", use_column_width=True)
 
 # Fonction pour générer le HTML d'un bouton avec le style souhaité
 def generate_styled_button_html(label, url=None):

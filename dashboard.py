@@ -3,7 +3,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import plotly.express as px
 from wordcloud import WordCloud
 import plotly.graph_objects as go
 import plotly.figure_factory as ff

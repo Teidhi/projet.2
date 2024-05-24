@@ -18,15 +18,7 @@ plt.style.use('ggplot')
 import warnings
 warnings.filterwarnings("ignore")
 
-st.markdown("""
-    <style>
-        body {
-            background-color: black;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-# Configuration de la page avec d'autres paramètres
+# Configuration de base de la page
 st.set_page_config(
     page_title="Tableau de bord",
     layout="wide",
@@ -53,6 +45,9 @@ st.markdown("""
         }
         button.styled-button:hover {
             color: #000;
+        }
+        body {
+            background-color: black;
         }
     </style>
 """, unsafe_allow_html=True)
